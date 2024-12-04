@@ -25,7 +25,7 @@ typedef struct s_ball
 // MAIN GAME ENGINE DATA STRUCTURE
 typedef struct s_game
 {
-  unsigned long delta_time;
+  double_t delta_time;
   unsigned int frame_count;
   unsigned int fps;
   unsigned int score;
